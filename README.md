@@ -35,5 +35,6 @@ Type=Application
 Name=Packet Tracer
 Icon=/home/$USER/.local/share/icons/packettracer.png
 Exec=toolbox run --container packet_tracer_container /usr/local/bin/packettracer
+StartupWMClass=PacketTracer
 EOF
 ```
