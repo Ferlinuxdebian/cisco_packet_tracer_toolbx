@@ -15,7 +15,7 @@ podman build -t packet_tracer_distrobox .
 ```
 distrobox create --image packet_tracer_distrobox --name packet_tracer_container
 ```
-#### Execute o Packet Tracer, e veja o vídeo abaixo para conseguir logar na conta. 
+#### Execute o Packet Tracer, e veja o vídeo abaixo para conseguir logar na conta (A primeira inicialização demora mesmo) 
 ```
 distrobox enter packet_tracer_container -- /usr/local/bin/packettracer
 ```
